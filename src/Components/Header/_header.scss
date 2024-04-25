@@ -67,7 +67,7 @@
     }
 }
 
-@media ( max-width : $breakpoint-small){
+@media(max-width : $breakpoint-small){
     .header{
         padding: 1rem;
 
@@ -75,11 +75,11 @@
             flex: 1;
         }
         &-menu{
-            display: none;
+            display: block;
         }
 
         &-logo{
-            display: block;
+            display: none;
         }
         &-icons>*:not(img){
             display: none;
